@@ -21,6 +21,7 @@ Project ini dibuat sebagai latihan awal memahami konsep **Server Component**, **
 - **Next.js 13+**
 - **React**
 - **JavaScript**
+- **TypeScript**
 - **JSONPlaceholder API**
 
 ---
