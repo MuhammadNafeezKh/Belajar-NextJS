@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NextJS News Tokita
 
-## Getting Started
+Project Next.js sederhana yang menampilkan daftar post menggunakan API publik dari **JSONPlaceholder**.  
+Project ini dibuat sebagai latihan awal memahami konsep **Server Component**, **data fetching**, dan **routing** di Next.js (App Router).
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Fitur
+
+- Fetch data post dari JSONPlaceholder API
+- Menampilkan 5 post terbaru
+- Menggunakan App Router (`app/`)
+- Server-side data fetching
+- Komponen client untuk fitur interaktif (theme switcher)
+- Struktur project sederhana & mudah dipahami
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Next.js 13+**
+- **React**
+- **JavaScript**
+- **JSONPlaceholder API**
+
+---
+
+## 📡 API yang Digunakan
+https://jsonplaceholder.typicode.com/posts
+
+Digunakan untuk simulasi data berita/post.
+📂 Struktur Folder (ringkas)
+app/
+ ├─ page.jsx        # halaman utama
+ ├─ layout.jsx      # layout utama
+ └─ components/
+     └─ ThemeSwitcher.jsx
+
+Clone repository:
+git clone (https://github.com/MuhammadNafeezKh/Belajar-NextJS)
+
+
+Masuk ke folder project:
+cd nextjs-news-tokita
+
+
+Install dependency:
+npm install
+
+
+Jalankan development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka browser:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📌 Catatan
+Project ini menggunakan data dummy, bukan data berita asli
+Cocok untuk pembelajaran dasar Next.js
+Belum menggunakan database atau authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📈 Pengembangan Selanjutnya
+Halaman detail post (/posts/[id])
+Metadata & SEO
+Styling lebih modern
+Integrasi API real
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🧑‍💻 Author
+Dibuat oleh Tokita
+Sebagai bagian dari pembelajaran Next.js dan pengembangan portofolio.
